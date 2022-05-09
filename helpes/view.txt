@@ -1,0 +1,6 @@
+-----------------------------------------------
+                    View
+
+We use EJS view engine : 
+
+https://ejs.co/
