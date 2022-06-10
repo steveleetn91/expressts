@@ -1,0 +1,14 @@
+main {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+main h1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+main h1 .logo {
+    width: 320px;
+}

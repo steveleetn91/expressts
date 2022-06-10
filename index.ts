@@ -15,6 +15,7 @@ const app : core.Express = express();
  */
 app.set('view engine', 'ejs');
 app.set('views', './resources/views');
+app.use(express.static('resources'));
 const viewHelp : string = fs.readFileSync("./helpes/view.txt",{encoding:'utf8', flag:'r'});
 console.log(viewHelp);
 /**
